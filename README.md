@@ -1,6 +1,3 @@
-# flutter_sumativa3
-
-A new Flutter project.
 # ServiceDesk Lite - Prototipo de Gestión de Tickets 🛠️
 
 Este proyecto es un prototipo de **Alta Fidelidad Funcional** desarrollado en **Flutter**. Simula una aplicación móvil para mesas de ayuda (Help Desk), permitiendo a los técnicos visualizar, crear y gestionar incidencias de soporte.
@@ -41,3 +38,53 @@ lib/
 │   ├── ticket_detail_screen.dart # Vista detallada y cierre de ticket
 │   └── create_ticket_screen.dart # Formulario de nuevo ticket
 └── main.dart             # Configuración global y Tema
+
+🚀 Instalación y Ejecución
+Este proyecto requiere tener instalado el Flutter SDK.
+
+Clonar el repositorio:
+
+Bash
+
+git clone [https://github.com/TU_USUARIO/service-desk-flutter.git](https://github.com/TU_USUARIO/service-desk-flutter.git)
+cd service-desk-flutter
+Obtener dependencias:
+
+Bash
+
+flutter pub get
+Ejecutar la aplicación: Selecciona tu emulador o dispositivo y corre:
+
+Bash
+
+flutter run
+🔮 Próximos Pasos (Roadmap)
+Este prototipo está diseñado para evolucionar. La siguiente fase de desarrollo incluye:
+
+[ ] Reemplazo de mock_data.dart por servicios HTTP (http package).
+
+[ ] Conexión a Backend desarrollado en Python (Flask).
+
+[ ] Implementación de persistencia real en Base de Datos.
+
+✒️ Autor
+[Tu Nombre Completo] - Desarrollo y Diseño - [Tu Link a LinkedIn opcional]
+
+Curso: Ingeniería Civil en Informática - [Nombre de la Asignatura]
+
+Proyecto desarrollado con fines académicos - 2025
+
+
+### Consejos para este README:
+
+1.  **Personalízalo:** Donde dice `[Tu Nombre Completo]`, `[Tu Link a LinkedIn]` y `[Nombre de la Asignatura]`, pon tus datos reales. También cambia la URL del `git clone` por la tuya.
+2.  **La tabla de credenciales:** Es lo más útil para el profesor. Le ahorras tener que buscar en el código cómo entrar.
+3.  **La estructura:** Muestra que no tiraste todo el código en un solo archivo, sino que pensaste en una arquitectura.
+
+Una vez creado el archivo, no olvides hacer el commit y push:
+
+```bash
+git add README.md
+git commit -m "Agregado README con documentacion del proyecto"
+git push
+```
