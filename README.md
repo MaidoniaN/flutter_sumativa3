@@ -38,26 +38,19 @@ lib/
 │   ├── ticket_detail_screen.dart # Vista detallada y cierre de ticket
 │   └── create_ticket_screen.dart # Formulario de nuevo ticket
 └── main.dart             # Configuración global y Tema
+```
 
 🚀 Instalación y Ejecución
 Este proyecto requiere tener instalado el Flutter SDK.
 
 Clonar el repositorio:
 
-Bash
-
+```Bash
 git clone [https://github.com/TU_USUARIO/service-desk-flutter.git](https://github.com/TU_USUARIO/service-desk-flutter.git)
 cd service-desk-flutter
-Obtener dependencias:
+```
 
-Bash
 
-flutter pub get
-Ejecutar la aplicación: Selecciona tu emulador o dispositivo y corre:
-
-Bash
-
-flutter run
 🔮 Próximos Pasos (Roadmap)
 Este prototipo está diseñado para evolucionar. La siguiente fase de desarrollo incluye:
 
@@ -67,24 +60,12 @@ Este prototipo está diseñado para evolucionar. La siguiente fase de desarrollo
 
 [ ] Implementación de persistencia real en Base de Datos.
 
-✒️ Autor
-[Tu Nombre Completo] - Desarrollo y Diseño - [Tu Link a LinkedIn opcional]
+✒️ Autores - Grupo 1
+Integrantes
+- Alonso Cid Riveros.
+- Scarlett Espinoza Contreras.
+- Christian Mattioni Avila.
 
-Curso: Ingeniería Civil en Informática - [Nombre de la Asignatura]
+Curso: Ingeniería Civil en Informática - APTC106 - Taller de Desarrollo Web
 
 Proyecto desarrollado con fines académicos - 2025
-
-
-### Consejos para este README:
-
-1.  **Personalízalo:** Donde dice `[Tu Nombre Completo]`, `[Tu Link a LinkedIn]` y `[Nombre de la Asignatura]`, pon tus datos reales. También cambia la URL del `git clone` por la tuya.
-2.  **La tabla de credenciales:** Es lo más útil para el profesor. Le ahorras tener que buscar en el código cómo entrar.
-3.  **La estructura:** Muestra que no tiraste todo el código en un solo archivo, sino que pensaste en una arquitectura.
-
-Una vez creado el archivo, no olvides hacer el commit y push:
-
-```bash
-git add README.md
-git commit -m "Agregado README con documentacion del proyecto"
-git push
-```
