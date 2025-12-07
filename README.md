@@ -2,15 +2,25 @@
 
 Este proyecto es un prototipo de **Alta Fidelidad Funcional** desarrollado en **Flutter**. Simula una aplicación móvil para mesas de ayuda (Help Desk), permitiendo a los técnicos visualizar, crear y gestionar incidencias de soporte.
 
-El objetivo de esta etapa es validar el flujo de navegación (UX/UI) y la lógica de estado local, preparando la arquitectura para una futura integración con un backend en **Flask**.
+El objetivo de esta etapa (Sumativa 3) es validar el flujo de navegación (UX/UI) y la lógica de estado local, preparando la arquitectura para una futura integración con un backend en **Flask**.
 
 ## 📋 Características Principales
 
 * **Autenticación Simulada:** Validación de credenciales contra un registro de usuarios local.
-* **Listado de Tickets:** Visualización de incidencias con indicadores de estado (Abierto/Cerrado) y fecha.
+* **Listado de Tickets:** Visualización de incidencias con indicadores de estado, prioridad y fecha de creación.
 * **Gestión de Estados:** Capacidad de cerrar tickets, con actualización inmediata en la interfaz.
 * **Creación de Tickets:** Formulario funcional con generación automática de fecha y ID.
-* **Navegación Asíncrona:** Uso de `Navigator` y `await` para refrescar listados tras acciones de usuario.
+* **Navegación Asíncrona:** Refresco automático de listados tras acciones de usuario.
+
+## ⚙️ Requisitos Previos
+
+Antes de clonar el proyecto, asegúrate de tener instalado el siguiente software en tu equipo:
+
+1.  **Visual Studio Code (Recomendado):** El entorno de desarrollo principal. [Descargar VS Code](https://code.visualstudio.com/)
+    * *Extensión recomendada:* Instalar las extensiones "Flutter" y "Dart" dentro de VS Code.
+2.  **Android Studio:** Necesario para compilar en Android y utilizar el Emulador virtual. [Descargar Android Studio](https://developer.android.com/studio)
+3.  **Flutter SDK:** El framework de desarrollo.
+    * 📥 **Descarga oficial:** Para descargar e instalar Flutter según tu sistema operativo, dirígete al sitio oficial: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 
 ## 🔐 Credenciales de Prueba (Demo)
 
@@ -22,6 +32,34 @@ Para probar la aplicación, utilice cualquiera de los siguientes usuarios config
 | **soporte2** | `password2` | Supervisor TI |
 
 > **Nota:** En este prototipo, las contraseñas se almacenan en texto plano solo para fines de demostración académica.
+
+## 🚀 Instalación y Ejecución en VS Code
+
+Sigue estos pasos para poner en marcha el proyecto:
+
+1.  **Clonar el repositorio:**
+    Abre tu terminal (Git Bash, PowerShell o CMD) y ejecuta:
+    ```bash
+    git clone [https://github.com/MaidoniaN/flutter_sumativa3.git](https://github.com/MaidoniaN/flutter_sumativa3.git)
+    ```
+
+2.  **Abrir el proyecto:**
+    * Abre **Visual Studio Code**.
+    * Ve a `File` > `Open Folder...` (Archivo > Abrir Carpeta).
+    * Selecciona la carpeta `flutter_sumativa3` que se acaba de descargar.
+
+3.  **Instalar dependencias:**
+    Abre la terminal integrada de VS Code (`Ctrl + ñ` o `Ver > Terminal`) y ejecuta:
+    ```bash
+    flutter pub get
+    ```
+
+4.  **Ejecutar la aplicación:**
+    * Asegúrate de tener un emulador Android corriendo o tu celular conectado por USB.
+    * Presiona `F5` para iniciar la depuración o ejecuta en la terminal:
+    ```bash
+    flutter run
+    ```
 
 ## 📂 Estructura del Proyecto
 
@@ -40,32 +78,15 @@ lib/
 └── main.dart             # Configuración global y Tema
 ```
 
-🚀 Instalación y Ejecución
-Este proyecto requiere tener instalado el Flutter SDK.
+## ✒️ Autores
+### Grupo 1 - Integrantes
 
-Clonar el repositorio:
+- **Alonso Cid R.**
+- **Scarlett Espinoza C.**
+- **Christian Mattioni A.**
 
-```Bash
-git clone [https://github.com/TU_USUARIO/service-desk-flutter.git](https://github.com/TU_USUARIO/service-desk-flutter.git)
-cd service-desk-flutter
-```
+## Universidad Andres Bello
+### Carrera: Ingeniería Civil en Informática
+### Curso: Taller de Programacion Web APTC106
 
-
-🔮 Próximos Pasos (Roadmap)
-Este prototipo está diseñado para evolucionar. La siguiente fase de desarrollo incluye:
-
-[ ] Reemplazo de mock_data.dart por servicios HTTP (http package).
-
-[ ] Conexión a Backend desarrollado en Python (Flask).
-
-[ ] Implementación de persistencia real en Base de Datos.
-
-✒️ Autores - Grupo 1
-Integrantes
-- Alonso Cid Riveros.
-- Scarlett Espinoza Contreras.
-- Christian Mattioni Avila.
-
-Curso: Ingeniería Civil en Informática - APTC106 - Taller de Desarrollo Web
-
-Proyecto desarrollado con fines académicos - 2025
+#### Proyecto desarrollado con fines académicos - 2025
