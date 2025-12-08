@@ -69,7 +69,7 @@ class CreateTicketScreen extends StatelessWidget {
                 // Formateamos manualmente a String (Día/Mes/Año) para guardarlo simple.
                 // Nota académica: En una app real usaríamos la librería 'intl' para formatear,
                 // pero esto funciona perfecto para un prototipo sin dependencias extra
-                String fechaFormateada = "${now.day}/${now.month}/${now.year}";
+                String fechaFormateada = "${now.year}-${now.month}-${now.day}";
 
                 tickets.add({
                   // Generamos un ID simple basado en el largo actual de la lista + 1

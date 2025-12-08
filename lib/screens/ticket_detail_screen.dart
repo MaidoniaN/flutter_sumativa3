@@ -69,7 +69,7 @@ class _TicketDetailScreenState extends State<TicketDetailScreen> {
               child: Text(
                 "Estado: ${widget.ticket['estado']}",
                 style: TextStyle(
-                  // El color del texto también cambia dinámicamente
+                  // El color del texto también cambia dinámicamente Cerrado verde, si no, rojo
                   color: estaCerrado ? Colors.green[900] : Colors.red[900],
                 ),
               ),

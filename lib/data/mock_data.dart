@@ -15,6 +15,7 @@
 // 1. List: Representa el array de objetos "[]".
 // 2. Map<String, dynamic>: Representa cada objeto "{}" con claves de texto.
 // 3. dynamic: Permite valores variados (enteros para ID, texto para descripción).
+
 List<Map<String, dynamic>> tickets = [
   {
     'id': 1, // Simula la Primary Key de la base de datos

@@ -1,9 +1,7 @@
 // lib/screens/login_screen.dart
 
-import 'package:flutter/material.dart';
-// Importamos los datos falsos para validar usuario/contraseña
-import '../data/mock_users.dart';
-// Importamos la pantalla de destino para navegar si el login es exitoso
+import 'package:flutter/material.dart'; // Importamos los datos falsos para validar usuario/contraseña
+import '../data/mock_users.dart'; // Importamos la pantalla de destino para navegar si el login es exitoso
 import 'ticket_list_screen.dart';
 
 /// Pantalla de Autenticación.
@@ -103,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   border:
                       OutlineInputBorder(), // Borde cuadrado estilo Material
                   prefixIcon: Icon(Icons.person), // Icono a la izquierda
-                  hintText: 'Ej: soporte1', // Texto de ayuda fantasma
+                  hintText: 'Ej: Soporte ', // Texto de ayuda fantasma
                 ),
               ),
               const SizedBox(height: 15),
