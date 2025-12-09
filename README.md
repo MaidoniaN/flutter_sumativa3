@@ -82,7 +82,7 @@ lib/
 
 Dale clic a la imagen para ver el funcionamiento del prototipo:
 
-[![Ver Video Demo](http://img.youtube.com/vi/Xv7-MbrvrBA/0.jpg)](https://youtu.be/Xv7-MbrvrBA)
+[![Ver Video Demo](http://img.youtube.com/vi/QmwmZs9ijC8/0.jpg)](https://www.youtube.com/watch?v=QmwmZs9ijC8)
 
 
 ## ✒️ Autores
